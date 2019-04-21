@@ -1,0 +1,20 @@
+{
+  "name": "bns.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:js": "mocha --timeout 9000 ./js/test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "solc": "^0.4.25",
+    "ganache-cli": "^6.4.1",
+    "web3": "^1.0.0-beta.48"
+  },
+  "dependencies": {}
+}
