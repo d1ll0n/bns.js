@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:js": "mocha --timeout 9000 ./js/test.js"
+    "test:old": "mocha --timeout 9000 ./js/test.js",
+    "test": "mocha --timeout 9000 ./test/test.js"
   },
   "keywords": [],
   "author": "",
